@@ -1,0 +1,34 @@
+{
+  "name": "tudoapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/csillagpeter/TudoAPI#readme",
+  "bugs": {
+    "url": "https://github.com/csillagpeter/TudoAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csillagpeter/TudoAPI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node migrations/migration.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "moment": "^2.31.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
